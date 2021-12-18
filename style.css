@@ -7,18 +7,69 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container-horizontal {
+.main {
     display: flex;
-    margin-left: 50px;
-    padding: 20px;
-    font-size: 30px;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
 }
 
-.container-horizontal > center {
-    margin-left: 50px;
+.hero-img {
+    max-width: 670px;
+    height: auto;
 }
 
-.container-vertical {
+.content-left {
+    width: 30%;
+}
+
+.main h3 {
+    font-size: 60px;
+    color: #133f52;
+}
+
+.main h1 {
+    font-size: 60px;
+    color: #f0513c;
+}
+
+.main h4 {
+    font-size: 25px;
+    color: #FCA70C;
+    font-weight: 400;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.content {
+    font-size: 20px;
+    margin: 0 180px;
+}
+
+center {
+    margin: 50px 0;
+}
+
+center h2 {
+    font-size: 54px;
+    color: #133f52;
+}
+
+center h1 {
+    font-size: 34px;
+    color: #f0513c;
+}
+
+.youtube-promo { 
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.youtube-promo .content-right img {
+    height: 775px;
+}
+
+iframe {
+    margin: 20px;
 }
